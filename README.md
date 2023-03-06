@@ -43,7 +43,8 @@
 
 ## About
 
-<table><tr><td>
+Generic Verilog project template for use with OSS digital design tools
+<!-- <table><tr><td>
 
 > **[?]**
 > Provide general information about your project here.
@@ -54,30 +55,40 @@
 
 
 
-</td></tr></table>
-
-### Built With
-
-> **[?]**
-> Please provide the technologies that are used in the project.
+</td></tr></table> -->
 
 ## Getting Started
 
 ### Prerequisites
 
-> **[?]**
-> What are the project requirements/dependencies?
+<!-- > **[?]**
+> What are the project requirements/dependencies? -->
+This project is dependent on the 
+[oss-cad-suite](https://github.com/YosysHQ/oss-cad-suite-build) by YosysHQ.
 
 ### Installation
 
-> **[?]**
-> Describe how to install and get started with the project.
+Press the *Use this template* button on the 
+[Github](https://github.com/patricab/oss-verilog) page of this repository.
 
 ## Usage
 
-> **[?]**
-> How does one go about using it?
-> Provide various use cases and code examples here.
+This project has the given folder structure. Some features include:
+- [Cocotb](https://github.com/cocotb/cocotb) makefile
+- Generic modules
+  - [Pipe](https://davidthings.github.io/spokefpga/pipelines) module by 
+David Williams
+
+```
+├── modules
+│   └── pipe
+├── README.md
+└── src
+    ├── rtl
+    └── sim
+        └── makefile
+
+```
 
 ## Roadmap
 
@@ -93,13 +104,6 @@ Reach out to the maintainer at one of the following places:
 
 - [GitHub issues](https://github.com/patricab/oss-verilog/issues/new?assignees=&labels=question&template=04_SUPPORT_QUESTION.md&title=support%3A+)
 - Contact options listed on [this GitHub profile](https://github.com/patricab)
-
-## Contributing
-
-First off, thanks for taking the time to contribute! Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make will benefit everybody else and are **greatly appreciated**.
-
-
-Please read [our contribution guidelines](docs/CONTRIBUTING.md), and thank you for being involved!
 
 ## Authors & contributors
 
